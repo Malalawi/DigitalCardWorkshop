@@ -27,7 +27,12 @@
     
     
   <!-- JavaScript File -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="JavaScript/script.js"></script>
+
+
+
 
 
 </head>
@@ -38,96 +43,125 @@
 <body>
 
     
-    
     <div class="img-container" > 
-        
-        
-        <div class="snowflakes" aria-hidden="true">
-  <div class="snowflake">
-  <img src="Assets/Img/snowflak-blue-med-01.svg">
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
-                
-       
-        
-        
-        
-        
-        
+            
         <!-- Enevlope START -->
         
         <span class= "env-des" id="envelope">
         
             <span class= "object shadow">
        
-                <img src= "Assets/img/envCl-purp-01.svg"  style="width: 60%"  onclick="this.src='Assets/img/envOp-purp-01.svg'; setTimeout(myFunction, 2000);"> 
-         
-            </span>
+                <img src= "Assets/img/envCl-purp-01.svg"  style="width: 60%"  onclick="this.src='Assets/img/envOp-purp-01.svg'"> 
+                
+                </span>
                 <h3 class="open-msg fade-in" id= "my-msg"> Click Me!</h3>  
         </span>
         
+            
+    
         
         <!-- Enevlope END -->
         
       
+        
+       <!-- Snowflake Fall Start -->  
+              
+        <div class="snowflakes" aria-hidden="true" id="snowflakes">
+            <div class="snowflake">
+                <img src="Assets/Img/snowflak-blue-med-01.svg " style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-blue-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-white-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-dark-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-dark-med-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-white-med-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflak-blue-med-01.svg " style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-blue-01.svg" style= "width: 60%">
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-blue-01.svg" style= "width: 60%">
+
+            </div>
+            <div class="snowflake">
+                <img src="Assets/Img/snowflake-blue-01.svg" style= "width: 60%">
+
+            </div>
+        </div>
+                
+          <!-- Snowflake Fall End -->  
+        
+        
+        
+    
          <!-- Card START -->
         
-        <span class= "card-des" id="card"> 
+        <div > 
+        <span class= "card-des"  aria-hidden="true" id="card"> 
         
-        
-        
-            <img class= "image-1" src= "Assets/Img/present-red-01.svg" style="width:100%"> 
-        
-            <img class= "image-2" src= "Assets/Img/present-tiffany-01.svg" style="width:100%"> 
             
-            <img class= "image-3" src= "" style="width:100%"> 
+            <div class="img-1"> 
             
-            <img class= "image-4" src= "" style="width:100%"> 
+            <img src= "Assets/Img/speechBubble-gray.svg" style="width: 50%"> 
+            
+            
+            
+            </div>
+
+            
+            
+             <div class="img-2"> 
+            
+            <img src= "Assets/Img/reindeer-brown-01.svg" style="width: 50%"> 
+            
+            
+            
+            </div>
         
+            
+            
+                   
+             <div class="img-3"> 
+            
+            <img src= "Assets/Img/tree-dark-01.svg" style="width: 50%"> 
+            
+            
+            
+            </div>
+            
+            
+            
+             <div class="img-4"> 
+            
+            <img src= "Assets/Img/tree-shadeStar-01.svg" style="width: 50%"> 
+            
+            
+            
+            </div>
+ 
         </span>
         
-        
-    </div>
-    
-    
+        </div>
+       <!-- Card End -->
     
     
 
     
+    </div>
     
-    
-    
-    
-    
-    
-    
+
     
     
 </body>

@@ -1,17 +1,39 @@
-   function myFunction() {
-        var envImg= document.getElementById("envelope");
-        var envMsg= document.getElementById("my-msg");
-        var card= document.getElementById("card");
-        envImg.style.visibility="hidden";
-       card.fadeTo("slow",1); 
-       
-   }
 
 
-function appera(){ 
+$(document).ready(function(){
+  $(".object").click(function(){
+     
+    
+  
+      
+    setTimeout(function() { 
+    $(".env-des").fadeOut();   
+    
+    }, 2000);
+      
+      
+    setTimeout(function() { 
+    $("#snowflakes").fadeIn();
+  
+        
+    }, 3000);
+     
+      
+    setTimeout(function() { 
+   
+    $(".card-des").fadeIn();
+    
+        
+    }, 5000);
+      
+      
+      
+  });
+});
 
 
 
-}
 
 
+
+//; setTimeout(myFunction, 2000); was in html before 
